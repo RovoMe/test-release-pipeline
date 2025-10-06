@@ -53,7 +53,7 @@ jobs:
 
       # install Java SDK on the runner
       - name: Set up JDK ${{ matrix.Java }}
-        uses: actions/setup-java@v4
+        uses: actions/setup-java@v5
         with:
           java-version: ${{ matrix.Java }}
           distribution: 'temurin'
