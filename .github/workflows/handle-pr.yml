@@ -27,7 +27,7 @@ jobs:
 
       # check out the pull-request to the runner
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 2 # do not download the whole git history
           ref: ${{ github.ref }}
